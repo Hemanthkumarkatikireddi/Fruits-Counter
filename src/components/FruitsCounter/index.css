@@ -1,0 +1,119 @@
+/* Write your CSS here */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffd569;
+  min-height: 100vh;
+  padding: 20px;
+}
+.content-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+  margin: 10px;
+  font-size: 18px;
+}
+.fruit-container {
+  width: 90%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.fruits {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  font-size: x-small;
+  align-items: center;
+  padding: 15px;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 8px;
+  border: 0px;
+  margin: 20px;
+  overflow: hidden;
+}
+.image {
+  height: 200px;
+  margin: 20px;
+}
+.span {
+  color: #ffd569;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 576px) {
+  .fruit-container {
+    width: 90%;
+  }
+  .heading {
+    font-size: 30px;
+    margin: 15px;
+  }
+  .button {
+    font-size: large;
+  }
+}
+@media screen and (min-width: 768px) {
+  .fruit-container {
+    width: 90%;
+  }
+  .fruits {
+    width: 90%;
+  }
+  .heading {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .fruit-container {
+    width: 90%;
+  }
+  .fruits {
+    width: 90%;
+  }
+  .heading {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .fruit-container {
+    width: 90%;
+  }
+  .fruits {
+    width: 50%;
+  }
+  .button {
+    padding: 15px;
+  }
+  .heading {
+    font-size: 50px;
+  }
+}
